@@ -1,12 +1,12 @@
 import LineGradient from "../components/LineGradient"
 import {motion} from 'framer-motion'
-import project1 from '../assets/project-1.jpeg'
-import project2 from '../assets/project-2.jpeg'
-import project3 from '../assets/project-3.jpeg'
-import project4 from '../assets/project-4.jpeg'
-import project5 from '../assets/project-5.jpeg'
-import project6 from '../assets/project-6.jpeg'
-import project7 from '../assets/project-7.jpeg'
+import project1 from '../assets/project-1.PNG'
+import project2 from '../assets/project-2.png'
+import project3 from '../assets/project-3.png'
+import project4 from '../assets/project-4.png'
+import project5 from '../assets/project-5.png'
+import project6 from '../assets/comingsoon.png'
+import project7 from '../assets/comingsoon.png'
 
 
 
@@ -50,7 +50,7 @@ const Projects = () => {
                 </div>
                  
                  <p className='mt-10 mb-10 '>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, dicta.
+                    Some hands on projects that are practical, and hobby projects.
                  </p>
          </motion.div>
 
@@ -71,8 +71,8 @@ const Projects = () => {
                                  variants={projectVariants}
                     >
                     <div className={overlayStyles}>
-                    <p className="text-2xl font-playfair">Title</p>
-                    <p className="mt-7 ">Substitle</p>
+                    <a href="https://github.com/dreadpiraterobertts/Ecommerce" target="_blank"><p className="text-2xl font-playfair">Ecommerce Site</p></a>
+                    <p className="mt-7 ">with payment gateway  (to github)</p>
                     </div>
                     <img src={project1} alt="" />
                     </motion.div>
@@ -81,8 +81,8 @@ const Projects = () => {
                                  variants={projectVariants}
                     >
                     <div className={overlayStyles}>
-                    <p className="text-2xl font-playfair">Title</p>
-                    <p className="mt-7 ">Substitle</p>
+                    <a href="https://mussieg.netlify.app/" target="_blank"><p className="text-2xl font-playfair">Gym Website</p></a>
+                    <p className="mt-7 ">Responsive Elegant Simple </p>
                     </div>
                     <img src={project2} alt="" />
                     </motion.div>
@@ -91,8 +91,8 @@ const Projects = () => {
                                  variants={projectVariants}
                     >
                     <div className={overlayStyles}>
-                    <p className="text-2xl font-playfair">Title</p>
-                    <p className="mt-7 ">Substitle</p>
+                    <a href="https://github.com/dreadpiraterobertts/facemash" target="_blank"><p className="text-2xl font-playfair">Facemash</p></a>
+                    <p className="mt-7 ">uses the chess ranking algorithm to rank two options presented</p>
                     </div>
                     <img src={project3} alt="" />
                     </motion.div>
@@ -101,8 +101,8 @@ const Projects = () => {
                                  variants={projectVariants}
                     >
                     <div className={overlayStyles}>
-                    <p className="text-2xl font-playfair">Title</p>
-                    <p className="mt-7 ">Substitle</p>
+                    <a href="https://admin-odin.netlify.app/" target="_blank"><p className="text-2xl font-playfair">Admin Dashboard</p></a>
+                    <p className="mt-7 ">Pure HTML and CSS nothing other than vanilla</p>
                     </div>
                     <img src={project4} alt="" />
                     </motion.div>
@@ -111,8 +111,8 @@ const Projects = () => {
                                  variants={projectVariants}
                     >
                     <div className={overlayStyles}>
-                    <p className="text-2xl font-playfair">Title</p>
-                    <p className="mt-7 ">Substitle</p>
+                    <a href="https://github.com/dreadpiraterobertts/exchangerate"><p className="text-2xl font-playfair">Exchange Rate</p></a>
+                    <p className="mt-7 ">Scrapes the web from 4 banks to display the data on the frontend</p>
                     </div>
                     <img src={project5} alt="" />
                     </motion.div>
@@ -121,8 +121,8 @@ const Projects = () => {
                                  variants={projectVariants}
                     >
                     <div className={overlayStyles}>
-                    <p className="text-2xl font-playfair">Title</p>
-                    <p className="mt-7 ">Substitle</p>
+                    <p className="text-2xl font-playfair">Coming Soon</p>
+                    <p className="mt-7 ">upcoming projects</p>
                     </div>
                     <img src={project6} alt="" />
                     </motion.div>
@@ -131,8 +131,8 @@ const Projects = () => {
                                  variants={projectVariants}
                     >
                     <div className={overlayStyles}>
-                    <p className="text-2xl font-playfair">Title</p>
-                    <p className="mt-7 ">Substitle</p>
+                    <p className="text-2xl font-playfair">Coming Soon</p>
+                    <p className="mt-7 ">upcoming projects</p>
                     </div>
                     <img src={project7} alt="" />
                     </motion.div>

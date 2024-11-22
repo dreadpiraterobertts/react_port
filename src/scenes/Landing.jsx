@@ -52,8 +52,9 @@ const Landing = ({setSelectedPage}) => {
                     </p>
 
                     <p className='mt-10 mb-7 text-sm text-center md:text-start'>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est quidem quod 
-                        provident hic ipsum quo?
+                        
+Creative and detail-oriented web developer with expertise in modern web technologies, including React, Firebase, and the MERN stack. Passionate about building intuitive and scalable web solutions.
+
                     </p>
 
                 </motion.div>

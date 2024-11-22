@@ -24,11 +24,12 @@ const MySkills = () => {
                 <p className='font-playfair font-semibold text-4xl mb-5'>My <span className='text-red'>Skills</span></p>
                  <LineGradient width='w-1/3'/>
                  <p className='mt-10 mb-7 '>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, dicta.
+                 I build responsive and intuitive websites that are user friendly, usind modern frameworks and technologies.
+
                  </p>
          </motion.div>
 
-            <div className='mt-16 md:mt-0 '>
+            <div className='mt-16 md:mt-0'>
                 {isAboveMediumScreens ?(
                     <div
                     className='relative z-0 ml-20 before:absolute before:-top-10 before:-left-10
@@ -49,7 +50,7 @@ const MySkills = () => {
 
         {/* skills */}
         <div className='md:flex justify-between mt-16 gap-32'>
-                {/* experience */}
+                {/* frontend */}
             <motion.div
             className='md:w-1/3 mt-10'
             initial="hidden"
@@ -64,15 +65,15 @@ const MySkills = () => {
                 <div className='relative h-32'>
                     <div className='z-10'>
                         <p className='font-playfair font-semibold text-5xl'>01</p>
-                        <p className='font-playfair font-semibold text-3xl mt-3'>Experience</p>
+                        <p className='font-playfair font-semibold text-3xl mt-3'>Frontend </p>
                     </div>
                     <div className='w-1/2 md:w3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]'/>
                 </div>
             <p className='mt-5'>
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit culpa, quae eveniet doloribus eius officiis veritatis enim nesciunt hic totam!
+            ReactJs, TailwindCSS, FramerMotion, HTML,CSS, Javascript
             </p>
             </motion.div>
-             {/* innovative */}
+             {/* backend */}
              <motion.div
             className='md:w-1/3 mt-10'
             initial="hidden"
@@ -87,15 +88,15 @@ const MySkills = () => {
                 <div className='relative h-32'>
                     <div className='z-10'>
                         <p className='font-playfair font-semibold text-5xl'>02</p>
-                        <p className='font-playfair font-semibold text-3xl mt-3'>Innovative</p>
+                        <p className='font-playfair font-semibold text-3xl mt-3'>Backend </p>
                     </div>
                     <div className='w-1/2 md:w3/4 h-32 bg-red absolute right-0 top-0 z-[-1]'/>
                 </div>
             <p className='mt-5'>
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit culpa, quae eveniet doloribus eius officiis veritatis enim nesciunt hic totam!
+            NodeJs, ExpressJs, MongoDB, RestAPIs, Payment Gateways(Stripe and Chappa)
             </p>
             </motion.div>
-               {/* imaginative */}
+               {/* other */}
                <motion.div
             className='md:w-1/3 mt-10'
             initial="hidden"
@@ -110,12 +111,12 @@ const MySkills = () => {
                 <div className='relative h-32'>
                     <div className='z-10'>
                         <p className='font-playfair font-semibold text-5xl'>03</p>
-                        <p className='font-playfair font-semibold text-3xl mt-3'>Imaginative</p>
+                        <p className='font-playfair font-semibold text-3xl mt-3'>Other</p>
                     </div>
                     <div className='w-1/2 md:w3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]'/>
                 </div>
             <p className='mt-5'>
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit culpa, quae eveniet doloribus eius officiis veritatis enim nesciunt hic totam!
+            WebScrapping, deployment , linux command line, Git,
             </p>
             </motion.div>
         </div>

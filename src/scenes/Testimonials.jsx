@@ -23,7 +23,7 @@ const Testimonials = () =>{
                 <p className='font-playfair font-semibold text-4xl mb-5 text-red'>Testimonials</p>
                  <LineGradient width='mx-auto w-2/5'/>
                  <p className='mt-10  '>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, dicta.
+                    Please contact me, If you want to be referred as a testimonial
                  </p>
          </motion.div>
 
@@ -41,7 +41,7 @@ const Testimonials = () =>{
                    }}
                  >
                     <p className="font-playfair text-6xl">"</p>
-                    <p className="text-center text-xl"> What an amazing project we worked on!</p>
+                    <p className="text-center text-xl"> Testimonials will be posted here!</p>
                  </motion.div>
                  <motion.div
                     className={`bg-red ${testimonialStyles} before:content-person2`}
@@ -55,7 +55,7 @@ const Testimonials = () =>{
                    }}
                  >
                     <p className="font-playfair text-6xl">"</p>
-                    <p className="text-center text-xl"> What an amazing project we worked on!</p>
+                    <p className="text-center text-xl"> Testimonials will be posted here!</p>
                  </motion.div>
                  <motion.div
                     className={`bg-yellow ${testimonialStyles} before:content-person3`}
@@ -69,7 +69,7 @@ const Testimonials = () =>{
                    }}
                  >
                     <p className="font-playfair text-6xl">"</p>
-                    <p className="text-center text-xl"> What an amazing project we worked on!</p>
+                    <p className="text-center text-xl"> Testimonials will be posted here!</p>
                  </motion.div>
          </div>
         </section>
